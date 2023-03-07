@@ -1,6 +1,7 @@
 /* Estilos generales */
 body{
     background: #161a1d;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 section{
@@ -25,7 +26,6 @@ h1{
 
 /* Hero */
 .hero{
-    background-color: blue;
     min-height: 450px;
     text-align: center;
 }
@@ -37,16 +37,35 @@ h1{
     align-items: flex-start;
 }
 
+.containerHero h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    align-items: flex-start;
+}
+
 .containerHero .titulo {
-    font-size: 40px;
-    font-weight: normal;
-    margin-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 1rem;
+    color: white;
+    align-items: flex-start;
 }
 
 .containerHero .tipeo {
     font-weight: bold;
     color: #2a9d8f;
     font-style: normal;
+    text-align: start;
+}
+
+.containerHero h3{
+    font-size: .9rem;
+    color: #caf0f8;
+    text-align: start;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    opacity: .5;
 }
 
 .photoHero{
