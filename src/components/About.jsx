@@ -1,41 +1,29 @@
+import img from '../assets/About2.png';
+
 const About = ()=>{
     return(
-        <div>
-            {/* ---- left side ---- */}
+        <>
+            <div>
+                <h1>Sobre mí <strong>.</strong></h1>
+            </div>
+            <div>
                 <div>
-                    <h1 > Hola! Soy <strong>Karla Jimenez</strong></h1>
-                    <span> Desarrolladora FullStack</span>
+                    <h2>Karla Jimenez</h2>
                     <p>
-                        Soy Desarrollador Front-End, me encanta codear y crear proyectos
-                        que sean funcional y visualmente atractivos.
+                        Soy Entusiasta, estoy super motivada a aprender cada día más,
+                        apasionado por este hermoso mundo de las IT, siempre dispuesto a
+                        aprender nuevas tecnologias. 
+                        Ahora quiero enfocar toda mi energía en convertirme en
+                        Software Developer que es lo que realmente me apasiona.
                     </p>
-                    <a
-                        href="https://drive.google.com/file/d/1SZjQApOwirA2r_oGNN4qP-4SnOeegF2o/view?usp=sharing"
-                        target="_blank"
-                    >
-                    DESCARGAR CV 
-                    {/* <i class="fa-solid fa-download"></i> */}
-                    </a>
-                    <div>
-                        <ul>
-                        {/* <!---- logo Github ----> */}
-                        <li>
-                            <img src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png"/> 
-                        </li>
-                        <li>
-                            <img src="https://cdn-icons-png.flaticon.com/128/15281/15281507.png"/> 
-                        </li>
-                        <li>
-                            <img src="https://cdn-icons-png.flaticon.com/128/1240/1240972.png"/> 
-                        </li>
-                        </ul>
-                    </div> 
                 </div>
-            {/* ---- right side ---- */}
                 <div>
-
+                    <img src={img}/>
                 </div>
-        </div>
+            </div>
+
+        </>
+        
     )
 }
 
