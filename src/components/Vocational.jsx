@@ -2,6 +2,7 @@
 const Vocational = ()=>{
     return(
         <>
+         FORMACIÓN
         </>
     )
 };

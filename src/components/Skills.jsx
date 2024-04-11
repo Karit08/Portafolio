@@ -1,6 +1,7 @@
 const Skill = ()=>{
     return(
         <>
+        HABILIDADES
         </>
     )
 };
