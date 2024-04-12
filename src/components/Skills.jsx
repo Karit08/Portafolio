@@ -5,7 +5,7 @@ const Skill = ()=>{
     return(
         <>
         <div>
-            <h1>Habilidades <strong>.</strong></h1>
+            <h1>Habilidades <strong>.</strong><i class="fa fa-tasks" aria-hidden="true"></i></h1>
         </div>
         <div>
             <div>

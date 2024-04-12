@@ -2,6 +2,7 @@
 const Vocational = () => {
     return (
         <>
+            <h1>Formación <i class="fa fa-graduation-cap" aria-hidden="true"></i></h1>
             {/* Codind Dojo */}
             <div>
                 <div>
