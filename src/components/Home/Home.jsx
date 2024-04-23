@@ -1,13 +1,14 @@
-import icons from '../assets/habilidades';
-import img1 from '../assets/Karlacirculo.png';
+import icons from '../../assets/habilidades';
+import img1 from '../../assets/Karlacirculo.png';
+import style from './Home.module.css';
 
 const Home = ()=>{
     return(
-        <div>
+        <div className={style.container}>
             {/* ---- left side ---- */}
-                <div>
+                <div className={style.text}>
                     <h1 > Hola! Soy <strong>Karla Jimenez</strong></h1>
-                    <span> Desarrolladora FullStack</span>
+                    <span className={style.maquina}> Desarrolladora FullStack</span>
                     <p>
                         Soy Desarrollador Front-End, me encanta codear y crear proyectos
                         que sean funcional y visualmente atractivos.
@@ -16,23 +17,23 @@ const Home = ()=>{
                         href="https://drive.google.com/file/d/1wAS-yzbx_n7ntQS4_R6nhHQ4T9A37qaA/view?usp=sharing"
                         target="_blank"
                     >
-                    DESCARGAR CV <img src={icons.download}/>
+                    DESCARGAR CV <img src={icons.download} width='30vph'/>
                     {/* <i class="fa-solid fa-download"></i> */}
                     </a>
                     <div>
-                        <ul>
+                        <ul className={style.links}>
                         {/* <!---- logo Github ----> */}
                         <li>
-                            <img src={icons.github}/> 
+                            <img src={icons.github} width='40vph'/> 
                         </li>
                         <li>
-                            <img src={icons.linkein}/> 
+                            <img src={icons.linkein} width='40vph'/> 
                         </li>
                         <li>
-                            <img src={icons.gmail}/> 
+                            <img src={icons.gmail} width='40vph'/> 
                         </li>
                         <li>
-                            <img src={icons.discord}/> 
+                            <img src={icons.discord} width='40vph'/> 
                         </li>
                         </ul>
                     </div> 

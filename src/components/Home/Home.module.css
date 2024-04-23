@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 60% 40%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.maquina{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+    width: 24ch;
+    animation: typing 1s steps(24), blink .2s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from{ width: 0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+.links{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.5rem;
+    width: 70%;
+}

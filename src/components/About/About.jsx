@@ -1,8 +1,9 @@
-import img from '../assets/About2.png';
+import img from '../../assets/About2.png';
+import style from "./About.module.css"
 
 const About = ()=>{
     return(
-        <>
+        <div className={style.header} >
             <div>
                 <h1>Sobre mí <strong>.</strong> <i class="fa fa-user" aria-hidden="true"></i></h1>
             </div>
@@ -22,7 +23,7 @@ const About = ()=>{
                 </div>
             </div>
 
-        </>
+        </ div>
         
     )
 }
