@@ -1,7 +1,7 @@
 .container{
     display: grid;
     flex-direction: row;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
 }
 
 .text{
@@ -13,7 +13,8 @@
 
 .maquina{
     display: block;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Be Vietnam Pro", sans-serif;
     white-space: nowrap;
     width: 24ch;
     animation: typing 1s steps(24), blink .2s infinite step-end alternate;
